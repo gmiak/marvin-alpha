@@ -1,0 +1,478 @@
+<!DOCTYPE doctype html>
+
+<html class="dbwebb" lang="sv">
+<head>
+<meta charset="utf-8">
+<title>Webbprogrammering och Databaser | dbwebb</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="https://sstatic.se/favicon.ico" rel="icon">
+<link href="https://sstatic.se/css/style.min.css?v=2017-04-07-1" rel="stylesheet" type="text/css">
+</link></link></meta></meta></head>
+<body class="route-">
+<!-- wrapper around all items on page -->
+<div class="wrap-all">
+<!-- siteheader -->
+<div class="outer-wrap outer-wrap-header">
+<div class="inner-wrap inner-wrap-header">
+<div class="row">
+<header class="site-header" role="banner">
+<img alt="Logo" class="logo-1" src="https://sstatic.se/image/tema/trad/blad.jpg">
+<span class="site-logo-text">
+<a href="https://dbwebb.se">
+<span class="site-logo-text-icon">
+<img alt="Liten logo" src="https://sstatic.se/image/tema/trad/blad_40x38.png">
+</img></span>
+                dbwebb    </a>
+</span>
+<nav class="navbar2" role="navigation">
+<div class="rm-navbar-top rm-navbar">
+<!--
+    <div class="rm-small-wrapper">
+        <ul class="rm-small">
+            <li><a id="rm-menu-button" class="rm-button" href="#"><i class="fa fa-bars fa-2x"></i></a></li>
+        </ul>
+    </div>
+-->
+<ul class="rm-default rm-desktop">
+<li><a href="https://dbwebb.se/kurser" title="Jobba med kurserna"><i class="icon fa fa-graduation-cap"></i> Kurser</a></li>
+<li><a href="https://dbwebb.se/material" title="Kurs- och utbildningsmaterial"><i class="icon fa fa-book"></i> Material</a></li>
+<li><a href="https://dbwebb.se/community" title="Delta i communityn"><i class="icon fa fa-users"></i> Community</a></li>
+<li><a href="https://dbwebb.se/utbildning" title="Läs om de utbildningar vi erbjuder inom webbprogrammering och webbutveckling"><i class="icon fa fa-university"></i> Utbildning</a></li>
+</ul>
+</div>
+</nav>
+<div class="profile">
+<!-- menu wrapper -->
+<div class="rm-navbar-max rm-navbar rm-max rm-swipe-right">
+<!-- memu click button -->
+<div class="rm-small-wrapper">
+<ul class="rm-small">
+<li><a class="rm-button" href="#" id="rm-menu-button">
+<i class="fa fa-bars rm-button-face-1"></i>
+<i class="fa fa-times rm-button-face-2"></i>
+</a></li>
+</ul>
+</div>
+<!-- main menu -->
+<ul class="rm-default rm-mobile" id="rm-menu">
+<li><a class="rm-submenu-button" href="#"></a><a href="https://dbwebb.se/kurser" title="Jobba med kurserna"><i class="fa fa-graduation-cap"></i> Kurser</a>
+<ul>
+<li><a href="https://dbwebb.se/kurser/design" title="Kursen design">design</a></li>
+<li><a href="https://dbwebb.se/kurser/htmlphp" title="Kursen htmlphp">htmlphp</a></li>
+<li><a href="https://dbwebb.se/kurser/javascript1" title="Kursen javascript1">javascript1</a></li>
+<li><a href="https://dbwebb.se/kurser/javascript" title="Kursen javascript">javascript</a></li>
+<li><a href="https://dbwebb.se/kurser/linux-v2" title="Kursen linux">linux</a></li>
+<li><a href="https://dbwebb.se/kurser/oophp" title="Kursen oophp">oophp</a></li>
+<li><a href="https://dbwebb.se/kurser/oopython" title="Kursen oopython">oopython</a></li>
+<li><a href="https://dbwebb.se/kurser/phpmvc" title="Kursen phpmvc">phpmvc</a></li>
+<li><a href="https://dbwebb.se/kurser/python" title="Kursen python">python</a></li>
+<li><a href="https://dbwebb.se/kurser/webapp" title="Kursen webapp">webapp</a></li>
+<li><a href="https://dbwebb.se/kurser/webgl" title="Kursen webgl">webgl</a></li>
+<li><a href="https://dbwebb.se/kurser/faq" title="Kursen faq">FAQ</a></li>
+</ul>
+</li>
+<li><a class="rm-submenu-button" href="#"></a><a href="https://dbwebb.se/material" title="Kurs- och utbildningsmaterial"><i class="fa fa-book"></i> Material</a>
+<ul>
+<li><a href="https://dbwebb.se/blogg" title="Läs om dbwebb, kurserna, webbprogrammering och webbutveckling och utbildning i allmänhet">Blogg</a></li>
+<li><a href="https://dbwebb.se/kunskap" title="Läs kunskapsartiklar">Kunskapsbanken</a></li>
+<li><a href="https://dbwebb.se/coachen" title="Läs tips från coachen">Tips från Coachen</a></li>
+<li><a href="https://dbwebb.se/uppgift" title="Jobba med uppgifter och övningar">Uppgiftsbanken</a></li>
+</ul>
+</li>
+<li><a class="rm-submenu-button" href="#"></a><a href="https://dbwebb.se/community" title="Delta i communityn"><i class="fa fa-users"></i> Community</a>
+<ul>
+<li><a href="https://dbwebb.se/forum" title="Diskutera i forumet">Forum</a></li>
+<li><a href="https://dbwebb.se/irc" title="Chatta på IRC och Gitter">Chatt</a></li>
+<li><a href="https://dbwebb.se/social" title="Sociala tjänster och nätverk">Social</a></li>
+</ul>
+</li>
+<li><a class="rm-submenu-button" href="#"></a><a href="https://dbwebb.se/utbildning" title="Läs om de utbildningar vi erbjuder inom webbprogrammering och webbutveckling"><i class="fa fa-university"></i> Utbildning</a>
+<ul>
+<li><a href="https://dbwebb.se/utbildning/webbprogrammering-180hp-campus" title="Läs om programmet Webbprogrammering 180hp på campus">Webbprogrammering 180hp campus</a></li>
+<li><a href="https://dbwebb.se/utbildning/webbprogrammering-120hp-distans" title="Läs om programmet Webbprogrammering 120hp på distans">Webbprogrammering 120hp distans</a></li>
+<li><a href="https://dbwebb.se/utbildning/webbutveckling-och-programmering-30hp" title="Läs om kurspaketet Webbutveckling och Programmering 30hp">Webbutveckling och Programmering 30hp distans</a></li>
+<li><a href="https://dbwebb.se/utbildning/webbprogrammering-och-databaser-30hp" title="Läs om kurspaketet Webbprogrammering och Databaser 30hp">Webbprogrammering och Databaser 30hp distans</a></li>
+</ul>
+</li>
+<li><a href="https://dbwebb.se/om" title="Läs om webbplatsen, de som står bakom och dess syfte">Om</a></li>
+</ul>
+</div>
+<span class="profile-phpbb">
+<span class="login">
+<a href="/forum/ucp.php?mode=login">
+<span class="text">Login</span>
+<i class="icon fa fa-sign-in"></i>
+</a>
+</span>
+</span>
+</div>
+</img></header>
+</div>
+</div>
+</div>
+<!-- navbar -->
+<!-- flash -->
+<div class="outer-wrap outer-wrap-flash">
+<div class="inner-wrap inner-wrap-flash">
+<div class="row">
+<div class="flash-wrap">
+<img class="" src="https://sstatic.se/image/tema/trad/tree2.jpg?sc=banner1&amp;a=0,0,15,0">
+</img></div>
+</div>
+</div>
+</div>
+<!-- breadcrumb -->
+<!-- columns-above -->
+<!-- main -->
+<div class="outer-wrap outer-wrap-main">
+<div class="inner-wrap inner-wrap-main">
+<div class="row">
+<main class="main has-sidebar-right has-sidebar" role="main">
+<article class="article">
+<h1>Nyheter</h1>
+</article>
+<section class="blog-list">
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2017-08-07">7 August 2017</time></span>
+<h1><a href="https://dbwebb.se/blogg/forberedelser-infor-terminen-2017">Förberedelser inför höstterminen 2017</a></h1>
+<figure class="figure">
+<a href="https://dbwebb.se/image/bth-sommar-hav.jpg"><img alt="Förberedelser inför höstterminen 2017" src="https://sstatic.se/image/bth-sommar-hav.jpg?w=w2&amp;a=20,30,30,0&amp;cf"/></a>
+<figcaption>
+<p>Förberedelser inför höstterminen 2017</p>
+</figcaption>
+</figure>
+<p>Höstterminen 2017 närmar sig med stormsteg, för lärare såsom befintlig och nybliven student. Låt se om det är något vi skall ha extra koll på.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/forberedelser-infor-terminen-2017">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: utbildning, kursnyheter.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2017-06-12">12 June 2017</time></span>
+<h1><a href="https://dbwebb.se/blogg/introduktionsveckan-2017">Introduktionsveckan Webbprogrammering 2017</a></h1>
+<figure class="figure">
+<a href="https://dbwebb.se/image/vimmel/forsmak-ht15.jpg"><img alt="" src="https://sstatic.se/image/vimmel/forsmak-ht15.jpg?w=w2&amp;cf&amp;a=30,0,30,0"/></a>
+</figure>
+<p>Introduktionsveckan är den inledande veckan på terminen för de som startar första året på program och kurspaket.</p>
+<p>Introveckan är för programstudenter på campus och distans men höstens introvecka kommer även bjuda in de som går på kurspaketen.</p>
+<p>Tanken med veckan är att komma igång med studierna och samtidigt bekanta sig med BTHs omgivningar, som campus eller distansstudent.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/introduktionsveckan-2017">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: utbildning, kursnyheter.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2017-05-11">11 May 2017</time></span>
+<h1><a href="https://dbwebb.se/blogg/grillcon-2017-var-i-utokad-version">GrillCon våren 2017 i utökad version</a></h1>
+<figure class="figure">
+<a href="https://dbwebb.se/image/grillcon/grill-vimmel.jpg"><img alt="" src="https://sstatic.se/image/grillcon/grill-vimmel.jpg?w=w2&amp;a=30,0,0,0"/></a>
+</figure>
+<p>Torsdagen den 18 maj 2017 inleds den utökade versionen av GrillCon med en konferensdag. Därefter fortsätter programmet med olika aktiviteter såsom barhäng, mingel, diskussioner om öppen källkod, programutvärdering och klassisk grill med prisutdelningar. Vårens GrillCon avslutas en en utflykt på lördagen.</p>
+<p>Dagarna riktar sig till dbwebb:are, webbprogrammerare, programvarutekniker och likasinnade.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/grillcon-2017-var-i-utokad-version">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: utbildning, studentjobb.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-12-12">12 December 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/en-samling-studentjobb-om-webbprogrammering">En samling studentjobb om webbprogrammering</a></h1>
+<figure class="figure">
+<a href="https://dbwebb.se/image/snapht16/articles-ht16.png"><img alt="" src="https://sstatic.se/image/snapht16/articles-ht16.png?w=w2"/></a>
+</figure>
+<p>Under höstterminen i trean går webbprogrammeringsstudenterna en fördjupningskurs i webbutveckling. Där väljer de ett område att dyka ned i, studera och skriva ett papper om.</p>
+<p>Kursen erbjuder möjligheten att dyka ned i ett intressant område, samtidigt som den förbereder studenterna inför det kommande exjobbet.</p>
+<p>Här kan du nu ta del av ett urval av de artiklar som studenterna skrev under hösten 2016.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/en-samling-studentjobb-om-webbprogrammering">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: utbildning, studentjobb.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-11-28">28 November 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/arets-utbildningskatalog-ar-slappt">Utbildningskatalogen för 2017 är släppt</a></h1>
+<figure class="figure right">
+<a href="https://dbwebb.se/image/snapht16/katalog-2017-omslag.jpg"><img alt="" src="https://sstatic.se/image/snapht16/katalog-2017-omslag.jpg?w=c5&amp;a=15,34,60,37&amp;cf"/></a>
+</figure>
+<p>BTH har släppt sin utbildningskatalog med utbudet inför hösten 2017 och vi är naturligtvis intresserade av om det finns någon webbprogrammerare som fungerar som omslagspojke/flicka, även detta året.</p>
+<p>Sen har vi ju ett erbjudande om utbildningar för den som vill bli webbprogrammerare också, det ska vi inte glömma. Här finns båda kurspaket och program, på campus som distans.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/arets-utbildningskatalog-ar-slappt">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: utbildning.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-08-29">29 August 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/var-finns-alla-kurspaketare-pa-distans">Var finns alla kurspaketare på distans anno 2016?</a></h1>
+<figure class="figure right">
+<a href="https://dbwebb.se/image/snapht16/var-bor-kurspaketare-liten.png"><img alt="" src="https://sstatic.se/image/snapht16/var-bor-kurspaketare-liten.png?w=c5&amp;cf"/></a>
+</figure>
+<p>Till hösten 2016 är 100 studenter antagna till kurspaketet “Webbutveckling och Programmering” 30hp. Eftersom det är på distans så kan vi anta att de är spridda över större delen av landet.</p>
+<p>Låt oss kika.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/var-finns-alla-kurspaketare-pa-distans">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: kursnyheter.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-08-26">26 August 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/var-finns-alla-programstudenter-pa-distans">Välkommen till distansprogrammet i Webbprogrammering 2016</a></h1>
+<figure class="figure right">
+<a href="https://dbwebb.se/image/snapht16/var-bor-programstudenter-distans.png"><img alt="" src="https://sstatic.se/image/snapht16/var-bor-programstudenter-distans.png?w=c5&amp;cf"/></a>
+</figure>
+<p>Då var det upprop för distansprogrammet i Webbprogrammering anno 2016.</p>
+<p>Man får säga välkommen hit!</p>
+<p>Låt oss starta.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/var-finns-alla-programstudenter-pa-distans">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: kursnyheter.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-08-12">12 August 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/schema-introveckan-2016">Introveckan för webbprogrammering</a></h1>
+<figure class="figure">
+<a href="https://dbwebb.se/image/teambuilding.jpg"><img alt="" src="https://sstatic.se/image/teambuilding.jpg?w=w2&amp;h=200&amp;cf"/></a>
+</figure>
+<p>Den första veckan närmar sig med stormsteg. Vi har planerat in lite aktiviteter för er både på förmiddagar och eftermiddagar på introveckan. Det blir kom igång med labbmiljö på förmiddagar och eftermiddagarna tar vi det lite lugnare och varvar BTH information med studier i GPS-relaterade aktiviteter i BTHs och Karlskronas omgivningar.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/schema-introveckan-2016">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: kursnyheter.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-08-11">11 August 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/hur-manga-klarar-sig-hela-vagen-in-i-mal">Hur många klarar sig hela vägen in i mål?</a></h1>
+<figure class="figure right">
+<a href="https://dbwebb.se/image/snapht16/genomstromning-program.png"><img alt="" src="https://sstatic.se/image/snapht16/genomstromning-program.png?w=c5"/></a>
+</figure>
+<p>Många är kallade till högskolestudier men det är inte alla som stannar kvar hela vägen in i mål och tar sin examen.</p>
+<p>Anledningarna till detta är flera, men vad bör man som ny student tänka på — för att klara sig på bästa möjliga sätt?</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/hur-manga-klarar-sig-hela-vagen-in-i-mal">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: kursnyheter, utbildning.</p>
+</footer>
+</section>
+<section class="blog-list-item">
+<span class="meta-header"><time datetime="2016-08-04">4 August 2016</time></span>
+<h1><a href="https://dbwebb.se/blogg/hosten-2016-narmar-sig">Hösten 2016 närmar sig</a></h1>
+<figure class="figure">
+<a href="https://dbwebb.se/image/vimmel/forsmak-ht15.jpg"><img alt="" src="https://sstatic.se/image/vimmel/forsmak-ht15.jpg?w=w2&amp;h=100&amp;cf"/></a>
+</figure>
+<p>Andra urvalet är gjort och det är nu cirka 250 studenter antagna till höstens utbildningar i webbprogrammering i Karlskrona.</p>
+<p>Det närmar sig.</p>
+<p class="readmore"><a href="https://dbwebb.se/blogg/hosten-2016-narmar-sig">Read more »</a></p>
+<footer class="meta-footer">
+<p>Category: kursnyheter.</p>
+</footer>
+</section>
+<footer>
+<div class="blog-toc-next-prev-page">
+<div class="next">
+<a href="https://dbwebb.se/blogg/sida/2">Next »</a>
+</div>
+<div class="center">
+        1 (10)</div></div></footer></section></main></div></div></div></div></body></html>
+
+<div class="previous">
+</div>
+
+
+
+
+<div class="sidebar sidebar-right has-sidebar-right has-sidebar" role="complementary">
+<div class="block">
+<h4>Aktuellt</h4>
+<figure class="figure">
+<a href="https://dbwebb.se/image/person/jane-strandberg-2.jpg"><img alt="Höstterminen 2017, vi är redo..." src="https://sstatic.se/image/person/jane-strandberg-2.jpg?w=c8&amp;cf&amp;h=150&amp;convolve=lighten&amp;sharpen&amp;convolve=draw&amp;blur"/></a>
+<figcaption>
+<p>Höstterminen 2017, vi är redo…</p>
+</figcaption>
+</figure>
+<ul>
+<li><a href="https://dbwebb.se/blogg/forberedelser-infor-terminen-2017">Förberedelser inför höstterminen 2017</a></li>
+<li><a href="https://dbwebb.se/blogg/introduktionsveckan-2017">Introduktionsveckan Webbprogrammering 2017</a></li>
+<li><a href="https://dbwebb.se/t/6598">dbwebb hijackat i serpen av ondsint bov</a></li>
+<li><a href="https://dbwebb.se/t/6532">Jag skall studera i höst (frågor/svar)</a></li>
+<li><a href="https://dbwebb.se/t/4469">Köpa dator inför hösten</a></li>
+<li><a href="https://dbwebb.se/kurser/faq/omregistrering">Omregistrering och restinlämningar inför hösten</a></li>
+</ul>
+<!--
+* [3-veckors upprop våren 2017 läsperiod 4](t/6481)
+* [Extra presentationstillfälle i slutet av lp4](t/6478) 
+* [GrillCon våren 2017](https://grillcon.dbwebb.se)
+* [Omregistrering och restinlämning för vårterminen 2017](https://dbwebb.se/t/6071)
+* [Omregistrering på kurstillfälle till våren 2017](kurser/faq/omregistrering)
+-->
+</div>
+<div class="block">
+<h4>Läs BTH Webbprogrammering!</h4>
+<!-- <img src="https://sstatic.se/image/grill.jpeg?w=c7" alt="">
+Den traditionella höstgrillen för nya, befintliga och utgångna studenter på programmen WIP, SE, ISE, DSV går snart av stapeln igen.
+
+<a href="http://dbwebb.se/t/2624">Läs mer och anmäl dig</a>, om du lyckas hitta till anmälningsformuläret...<br><br>
+
+<h4>Utbilda dig till webbprogrammerare vid BTH!</h4>
+-->
+<figure class="figure">
+<a href="https://dbwebb.se/image/person/emma-pagwe.jpg"><img alt="" src="https://sstatic.se/image/person/emma-pagwe.jpg?w=c8"/></a>
+</figure>
+<p>Studera på utbildningsprogram och kurspaket i Webbprogrammering på campus &amp; distans vid Blekinge Tekniska Högskola i Karlskrona.</p>
+<p>Hösten 2017 har vi följande utbud:</p>
+<ul>
+<li>Webbprogrammering 180hp (campus)</li>
+<li>Webbprogrammering 120hp (distans)</li>
+<li>Webbutveckling och programmering 30hp (distans)</li>
+<li>Webbprogrammering och databaser 30hp (distans)</li>
+</ul>
+<p>Samma utbud gäller inför hösten 2018.</p>
+<!--
+Finn mer information i forumet:
+
+* [Utbud](t/5830)
+* [Frågor och svar](t/6119)
+-->
+<figure class="figure">
+<a href="https://dbwebb.se/image/bobba_webprog2.jpg"><img alt="" src="https://sstatic.se/image/bobba_webprog2.jpg?w=c8"/></a>
+</figure>
+<p>Välkommen med din ansökan så syns vi här!</p>
+<p><a href="https://dbwebb.se/utbildning">Läs om våra utbildningar »</a></p>
+<!--
+<h4>Lär dig databaser och webb</h4>
+
+**Lär dig** själv - och hjälp andra lära sig - **databaser**, **webbprogrammering** och **webbutveckling**.
+
+**dbwebb** är en lärande community och fokus är <abbr title='Hypertext Markup Language'>HTML</abbr>, <abbr title='Cascading Style Sheets'>CSS</abbr>, <abbr title='Javascript är ett skriptspråk som ofta används i webbsammanhang'>JavaScript</abbr>, <abbr title='Rekursiv akronym för PHP: Hypertext Preprocessor'>PHP</abbr> och databaser med <abbr title='Structured Query Language'>SQL</abbr> i Unix-miljö och resten som krävs för att bygga webbplatser och webbapplikationer.
+
+Så vad vill du göra?
+
+* [Jobba med högskolekurserna]([BASEURL]kurser)
+* [Kika på utbildningsutbudet]([BASEURL]utbildning)
+
+Eller bara titta runt lite? 
+
+Hur som haver - välkommen är du i vilket fall som helst.
+
+/Mikael
+-->
+</div>
+</div>
+
+
+
+<!-- after-main -->
+<!-- columns-below -->
+<div class="outer-wrap outer-wrap-columns-below">
+<div class="inner-wrap inner-wrap-columns-below">
+<div class="row">
+<div class="columns-below">
+<div class="columns col3-wrapper">
+<div class="column col3">
+<div class="block">
+<h4><a href="https://dbwebb.se/coachen">Tips från Coachen</a></h4>
+<ul>
+<li><a href="https://dbwebb.se/coachen/den-terminalbaserade-texteditorn-nano">Den terminalbaserade texteditorn nano</a></li>
+<li><a href="https://dbwebb.se/coachen/typografiska-element-med-smartypants">Typografiska element för webben med SmartyPants</a></li>
+<li><a href="https://dbwebb.se/coachen/flask-som-cgi-script">Flask som CGI-skript</a></li>
+<li><a href="https://dbwebb.se/coachen/skriv-for-webben-med-markdown-och-formattera-till-html-med-php-v2">Skriv för webben med Markdown och formattera till HTML med PHP (v2)</a></li>
+<li><a href="https://dbwebb.se/coachen/inspektera-python-med-python">Inspektera Python med Python</a></li>
+</ul>
+</div>
+</div>
+<div class="column col3">
+<div class="block">
+<h4><a href="https://dbwebb.se/kunskap">Kunskapsbanken</a></h4>
+<ul>
+<li><a href="https://dbwebb.se/kunskap/kom-igang-med-flask">Kom igång med ramverket Flask</a></li>
+<li><a href="https://dbwebb.se/kunskap/kom-igang-med-objekt">Kom igång med objekt i Python</a></li>
+<li><a href="https://dbwebb.se/kunskap/vad-ar-uml">Vad är UML?</a></li>
+<li><a href="https://dbwebb.se/kunskap/att-skriva-unittester">Att skriva unittester</a></li>
+<li><a href="https://dbwebb.se/kunskap/flask-och-jinja2">Flask och Jinja2</a></li>
+</ul>
+</div>
+</div>
+<div class="column col3">
+<div class="block">
+<h4><a href="https://dbwebb.se/uppgift">Uppgiftsbanken</a></h4>
+<ul>
+<li><a href="https://dbwebb.se/uppgift/din-egen-chattbot-marvin-steg-3">Din egen chattbot - Marvin - steg 3</a></li>
+<li><a href="https://dbwebb.se/uppgift/python-med-objekt-och-klasser">Python med Objekt och klasser</a></li>
+<li><a href="https://dbwebb.se/uppgift/aterstall-trasigt-objekt">Din egen chattbot - Marvin - steg 3</a></li>
+<li><a href="https://dbwebb.se/uppgift/en-me-sida-med-python-och-flask">Skapa en me-sida med Python och Flask</a></li>
+<li><a href="https://dbwebb.se/uppgift/python-med-mer-objekt-och-klasser">Python med mer Objekt och klasser</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- sitefooter -->
+<div class="outer-wrap outer-wrap-footer" role="contentinfo">
+<div class="inner-wrap inner-wrap-footer">
+<div class="row">
+<div class="footer">
+<div class="columns footer-column-wrapper">
+<div class="column footer-column">
+<div class="footer-column-x footer-column-1 block">
+<h4>Om dbwebb</h4>
+<p><strong>dbwebb.se</strong> är en lärande community för programmering i webbmiljö.</p>
+<p>Lär dig själv - och hjälp andra lära sig - databaser, webbprogrammering och webbutveckling. Kika gärna på våra kurser, artiklar, guider, uppgifter och delta i gemenskapen.</p>
+<p><a href="https://dbwebb.se/om">Läs mer om dbwebb »</a></p>
+</div>
+</div>
+<div class="column footer-column">
+<div class="footer-column-x footer-column-2 block">
+<h4><i class="fa fa-users"></i> Social</h4>
+<p>Skapa viktiga kontakter och bygg ditt nätverk. Använd <a href="https://dbwebb.se/social">dbwebb’s sociala nätverk</a> som en bas.</p>
+<p><a href="https://dbwebb.se/social/facebook"><i aria-hidden="true" class="fa fa-facebook-square fa-2x"></i></a>
+<a href="https://dbwebb.se/social/twitter"><i aria-hidden="true" class="fa fa-twitter-square fa-2x"></i></a>
+<a href="https://dbwebb.se/social/googleplus"><i aria-hidden="true" class="fa fa-google-plus-square fa-2x"></i></a>
+<a href="https://dbwebb.se/social/linkedin"><i aria-hidden="true" class="fa fa-linkedin-square fa-2x"></i></a>
+<a href="https://dbwebb.se/social/github"><i aria-hidden="true" class="fa fa-github-square fa-2x"></i></a>
+<a href="https://dbwebb.se/social/flickr"><i aria-hidden="true" class="fa fa-flickr fa-2x"></i></a>
+<a href="https://dbwebb.se/social/instagram"><i aria-hidden="true" class="fa fa-instagram fa-2x"></i></a>
+<a href="https://dbwebb.se/social/youtube"><i aria-hidden="true" class="fa fa-youtube-square fa-2x"></i></a></p>
+</div>
+</div>
+<div class="column footer-column">
+<div class="footer-column-x footer-column-3 block">
+<h4><i class="fa fa-university"></i> Sök Webbprogrammering HT18</h4>
+<p>Ansökan till utbildningar för hösten 2018 öppnar den 15:e mars.</p>
+<p>Ansök i tid! Sök med både betyg och högskoleprov för att maximera dina chanser att komma in.</p>
+<p>Vi erbjuder inga utbildningar att söka till VT18.</p>
+</div>
+</div>
+</div>
+<div class="block site-footer">
+<p>Copyright © 2008-2017 <a href="https://mikaelroos.se">Mikael Roos</a> (mos@dbwebb.se)</p>
+<ul>
+<li><a href="https://dbwebb.se/om/licens-och-rattigheter">Licens</a></li>
+<li><a href="https://dbwebb.se/om/cookies">Cookies</a></li>
+<li><a href="https://dbwebb.se/rss">RSS</a></li>
+<li><a href="https://github.com/dbwebb-se/website">Källkod</a></li>
+<li><a href="https://dbwebb.se/om/kontakt">Kontakt</a></li>
+<li><a href="https://dbwebb.se/om">Om</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <!-- end of wrapper -->
+<!-- render javascripts -->
+<script async="" src="https://sstatic.se/js/theme/responsive-menu.min.js?v=2016-11-28"></script>
+<!-- useful for inline javascripts such as google analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-22093351-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
